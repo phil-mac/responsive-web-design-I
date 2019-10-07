@@ -279,6 +279,10 @@ li{
         padding-left: 0px;
     }
 
+
+    .facts-about-services-img-div{
+        display:none;
+    }
     /* header, section, nav {
         border: 1px solid grey;
     } */
@@ -348,21 +352,7 @@ li{
 
     /* old media query stuff */
 
-	.service-card{
-		width: 98%;
-	}
-
-	.facts-about-services div{
-		width: 98%;
-	}
-
-	.services-header{
-		padding: 190px 0 40px 0;
-	}
-
-	
-
-	.top-content{
+    .top-content{
 		flex-direction: column;
 	}
 	
@@ -383,5 +373,18 @@ li{
 	.bottom-content div{
 		width: 99%;
 		padding: 10px 0;
+    }
+    
+
+	.service-card{
+		width: 98%;
+	}
+
+	.facts-about-services div{
+		width: 98%;
+	}
+
+	.services-header{
+		padding: 190px 0 40px 0;
 	}
 }
